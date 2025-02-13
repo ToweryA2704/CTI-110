@@ -15,6 +15,7 @@ print("Initial Budget:",budget)
 print("\nFuel:",gas)
 print("Accomodation:",accomodation)
 print("Food:",food)
+# calculation
 balance = budget-gas-accomodation-food
 print("\nRemaining Balance:",balance)
 
