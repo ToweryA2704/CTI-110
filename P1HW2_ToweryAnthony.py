@@ -17,3 +17,13 @@ print("Accomodation:",accomodation)
 print("Food:",food)
 balance = budget-gas-accomodation-food
 print("\nRemaining Balance:",balance)
+
+##Pseudocode
+##Ask user to enter their budget
+##Ask user to enter travel destination
+##Ask user for amount they will spend on gas
+##Ask user for amount they will spend on accommodation
+##Ask user for amount they will spend on food
+##Add expenses
+##Subtract expenses from budget
+##Display results
