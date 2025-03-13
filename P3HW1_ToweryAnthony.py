@@ -48,7 +48,7 @@ else:
             if avg >= 60:
                 print('Your grade is: D')
             else:
-                if avg >= 0:
+                if avg < 60:
                     print('Your grade is: F')
     # TO DO: finish this
 
