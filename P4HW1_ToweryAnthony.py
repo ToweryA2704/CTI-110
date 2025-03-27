@@ -47,6 +47,5 @@ else:
             if average >= 60:
                 print('Grade           : D')
             else:
-                if average < 60:
-                    print('Grade           : F')
+                print('Grade           : F')
 print('-'*40)
