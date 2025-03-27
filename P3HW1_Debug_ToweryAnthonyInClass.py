@@ -1,5 +1,9 @@
 # I was supposed to put a comment here
-# My Last Name
+# I was supposed to put a comment here
+# Anthony Towery
+# March 13, 2025
+# P3HW1
+# Showing a list of grades
 
 
 # This program takes a number grade , determines average and displays letter grade for average.
