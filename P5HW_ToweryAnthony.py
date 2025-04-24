@@ -2,8 +2,8 @@
 # April 22nd, 2025
 # P5HW 
 # Making a game with Python coding
-# Code credits to Microsoft Co-Pilot
-# My ideas was a game where you have to escape a pyramid and without losing to the mummies, Escaping the Pyramid
+# Code credits goes to Microsoft Co-Pilot AI
+# My ideas was a game where you have to escape a pyramid and without losing to the mummies, it is called Escaping the Pyramid!
 import random  # Importing the random library for generating random events
 
 def create_character(name):
