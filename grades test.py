@@ -4,7 +4,7 @@ def main():
     total = getGradesTotal(number)
     average = getAverage(number, total)
     grades = getLetterGrade(average)
-    displayGrades(average, grades
+    displayGrades(average, grades)
 def getNumGrades():
     num = int(input("How many grades do you want to input? "))
     return num
@@ -31,5 +31,5 @@ def getLetterGrade(ave):
      grade = "F"
     return grade
 def displayGrades(ave, grade):
-    print("Your average is ", ave, " which is letter grade of ", grade)
+    print("Your average is", ave, "which is letter grade of", grade)
 main()
