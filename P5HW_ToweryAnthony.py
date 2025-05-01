@@ -104,6 +104,7 @@ def trap(character):
     This function handles the logic for falling into a trap.
     """
     print("You fell into a trap! Game over.")
+    play_again(character)
 
 def fight_mummy(character):
     """
@@ -116,6 +117,7 @@ def fight_mummy(character):
     character['health'] -= random.randint(10, 30)
     if character['health'] <= 0:
         print("You have no health left. Game over.")
+        play_again(character)
     else:
         print("You defeated the mummy and found the exit! You win!")
 
@@ -133,8 +135,20 @@ def fight_mummies(character):
         character['health'] -= random.randint(10, 30)
         if character['health'] <= 0:
             print("You have no health left. Game over.")
+            play_again(character)
             return
     print("You defeated the mummies and found the exit! You win!")
+
+def play_again(character):
+    """
+    Function name: play_again
+    Parameters: character (dict) - The game character
+    Returns: None
+    This function prompts the player to play again if they lose.
+    """
+    play_again = input("Do you want to play again? (yes/no) ")
+    if play_again.lower() == 'yes':
+        main()
 
 def main():
     """
@@ -147,9 +161,7 @@ def main():
     character = create_character(name)
     start(character)
     if character['health'] > 0:
-        play_again = input("Do you want to play again? (yes/no) ")
-        if play_again.lower() == 'yes':
-            main()
+        play_again(character)
 
 if __name__ == "__main__":
     main()
